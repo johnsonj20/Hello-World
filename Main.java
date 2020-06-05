@@ -78,6 +78,7 @@ public class Main {
   }
 
   private static void restart(String[] args) {
+    System.out.println("System will restart");
     main(args);
   }
 }
