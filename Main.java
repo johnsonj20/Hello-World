@@ -72,7 +72,8 @@ public class Main {
         TimeCache.getCachedTime();
       }
     } else {
-      System.out.println("Account Not Found");
+      System.out.println("Wrong Credentials");
+      System.out.println("System Restarting...");
       restart(args);
     }
   }
