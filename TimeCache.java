@@ -1,7 +1,7 @@
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class TimeCache {
+public class TimeCacheService {
     static Date systemTime = SystemTime.getSystemTime();
     static SimpleDateFormat formatter = new SimpleDateFormat("HH:mm:ss z");
 
