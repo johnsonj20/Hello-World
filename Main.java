@@ -57,7 +57,8 @@ public class Main {
 
     if (authenticated) {
       System.out.println("Welcome, " + username + "! You are verified.");
-      String getDateTimeResponse = console.readLine(
+      String getDate
+        Response = console.readLine(
           "Would you like to display the date in Date only Format(1), Time only Format(2), Date and Time Format(3), or Cached Time(4)? ");
       if (getDateTimeResponse.toLowerCase().equals("1")) {
         GetDateFormat.getDate();
@@ -69,7 +70,7 @@ public class Main {
         GetDateTimeFormat.getDateTime();
       }
       if (getDateTimeResponse.toLowerCase().equals("4")) {
-        TimeCache.getCachedTime();
+        TimeCacheService.getCachedTime();
       }
     } else {
       System.out.println("Wrong Credentials");
