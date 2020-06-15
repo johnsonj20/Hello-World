@@ -74,11 +74,11 @@ public class Main {
     } else {
       System.out.println("Wrong Credentials");
       System.out.println("System Restarting...");
-      restart(args);
+      systemRestart(args);
     }
   }
 
-  private static void restart(String[] args) {
+  private static void systemRestart(String[] args) {
     System.out.println("System will restart");
     main(args);
   }
