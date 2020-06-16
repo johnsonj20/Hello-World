@@ -64,7 +64,7 @@ public class Main {
         GetDateFormat.getDate();
       }
       if (getDateTimeResponse.toLowerCase().equals("2")) {
-        GetCurrentTimeFormat.getTime();
+        GetCurrentTimeFormat.getCurrentTime();
       }
       if (getDateTimeResponse.toLowerCase().equals("3")) {
         GetDateTimeFormat.getDateTime();
