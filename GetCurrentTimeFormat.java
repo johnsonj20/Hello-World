@@ -5,7 +5,7 @@ public class GetCurrentTimeFormat {
     static Date systemTime = SystemTime.getSystemTime();
     static SimpleDateFormat formatter = new SimpleDateFormat("HH:mm:ss z");
 
-    public static void getTime() {
+    public static void getCurrentTime() {
         System.out.println(formatter.format(systemTime));
     }
 }
