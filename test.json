@@ -1,0 +1,9 @@
+{
+  "API": {
+    "required": ["GetTimeFormat","GetDateFormat"],
+    "properties": {
+      "GetTimeFormat": {"type": "string"},
+      "GetDateFormat": {"type": "string"}
+    }
+  }
+}
