@@ -21,7 +21,7 @@ public class Config {
     class SystemTime{
         String[] FeatureTag = {
             "SPEC-116",
-            "SPEC-118"
+            "SPEC-119"
         };
     }
 }
