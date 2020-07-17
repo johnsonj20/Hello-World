@@ -80,7 +80,7 @@ public class Main {
   }
 
   private static void systemRestart(String[] args) {
-    System.out.println("System will restart");
+    System.out.println("System restarting");
     main(args);
   }
 }
